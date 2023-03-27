@@ -7,7 +7,7 @@ from visa.constant import *
 from visa.logger import logging
 from visa.entity.config_entity import DataIngestionConfig
 from visa.entity.artifact_entity import DataIngestionArtifact
-from visa.config.configuration import Configuartion
+from visa.config.configuration import Configuration
 from visa.exception import CustomException
 from visa.utils.utils import read_yaml_file
 from sklearn.model_selection import train_test_split
